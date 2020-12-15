@@ -1,0 +1,24 @@
+
+header .wrapper {
+  font-size: 14px;
+}
+
+header .wrapper:first-child h3 {
+  font-size: 24px;
+}
+
+header .wrapper:last-child h2 {
+  font-size: 50px;
+  color: rgb(123, 143, 78);
+}
+
+main .text__box {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+main .title__box {
+  font-size: 18px;
+  line-height: 20px;
+}
