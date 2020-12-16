@@ -1,23 +1,29 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 .nav__container {
-  background: rgb(127, 138, 101);
   display: grid;
   grid-template-rows: 25vh 50vh 25vh;
+  order: 3;
 }
-.nav__container .wrapper {
-  width: 350px;
-  height: 200px;
-  background: #fff;
+.nav__container .wrapper ul {
   display: flex;
-  justify-self: center;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.nav__container .wrapper ul li {
+  transition: .3s;
+  cursor: pointer;
+}
+.nav__container .wrapper ul li:hover {
+  color: rgb(173, 173, 173);
 }
 
 .article__container {
   max-width: 900px; 
+  order: 2;
 }
 
 .article__container header {
